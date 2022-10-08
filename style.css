@@ -1,0 +1,56 @@
+.outer {
+    border: 2px solid #000;
+    width: 500px;
+    /* margin: ; */
+    text-align: center;
+    text-align: c;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+}
+.outer form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer form input{
+    height: 50px;
+    width: 30px;
+    border-radius: 5px ;
+    margin:10px 10px;
+    text-align: center;
+    font-size:40px;
+    border:1px solid transparent;
+    outline: none;
+
+}
+.para1 p{
+    background-color: rgb(239, 239, 239);
+    padding:10px 10px;
+    width: fit-content;
+    margin:auto;
+    margin-bottom:30px;
+    margin-top: 20px;
+    border-radius:5px;
+}
+.outer form input:focus{
+    border:1px solid rgb(94, 94, 255);
+    -webkit-box-shadow: 2px 11px 13px -5px rgba(0,0,0,0.29);
+-moz-box-shadow: 2px 11px 13px -5px rgba(0,0,0,0.29);
+box-shadow: 2px 11px 13px -5px rgba(0,0,0,0.29);
+}
+.outer form input::placeholder{
+    color: rgb(179, 179, 179);
+}
+
+.outer .para2{
+    font-weight:500;
+}
+.outer form input:first-child{
+    border:1px solid rgb(94, 94, 255);
+    -webkit-box-shadow: 2px 11px 13px -5px rgba(0,0,0,0.29);
+-moz-box-shadow: 2px 11px 13px -5px rgba(0,0,0,0.29);
+box-shadow: 2px 11px 13px -5px rgba(0,0,0,0.29);
+}
